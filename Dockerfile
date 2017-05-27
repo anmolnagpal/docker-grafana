@@ -1,9 +1,6 @@
-# Dockerfile
-
-# Pull base image.
 FROM debian:jessie
-
 MAINTAINER Anmol Nagpal <ianmolnagpal@gmail.com>
+
 ENV GRAFANA_MAJOR 4.3
 ENV GRAFANA_VERSION 4.3.1
 ENV DEBIAN_FRONTEND noninteractive
